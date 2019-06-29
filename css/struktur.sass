@@ -43,3 +43,38 @@
 
 .Verworfen
   opacity: 0.2
+
+// Startseite-Button
+#Startseite
+  position: fixed
+  top: 40px
+  left: 20px
+
+// Navigation
+#IconSetNavigation
+  width: 80vw
+  margin: 40px auto
+  display: grid
+  grid-template-columns: calc((80vw / 4) - 15px) calc((80vw / 4) - 15px) calc((80vw / 4) - 15px) calc((80vw / 4) - 15px)
+  grid-gap: 20px
+
+#IconSetNavigation > li
+  width: calc((80vw / 4) - 15px)
+  display: flex
+  justify-content: space-around
+  align-items: center
+  border-bottom: 1px $kommentar-farbe-1 solid
+
+#IconSetNavigation > li > a > section > h4
+  text-align: center
+  margin: 10px 0px 5px 0px
+
+#IconSetNavigation > li > a > section > p
+  text-align: center
+  color: $kommentar-farbe-1
+  margin: 0px 0px 10px 0px
+
+#IconSetNavigation > li > a > section > svg
+  width: calc(50px * 2) !important
+  margin: 40px calc((((80vw / 4) - 15px) - 100px) / 2)
+  height: auto

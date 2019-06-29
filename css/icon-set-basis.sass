@@ -1,0 +1,25 @@
+@import variablen.sass
+
+// Icons-Ausgestaltung
+.icon-set-linie-dick > line,
+.icon-set-linie-dick > polyline,
+.icon-set-linie-dick > path,
+.icon-set-linie-dick > polygon,
+.icon-set-linie-dick > circle,
+.icon-set-linie-dick > rect,
+  stroke: $icon-set-linie
+  stroke-miterlimit: 10
+
+.dreieck > polygon,
+.prioritaet > polygon,
+.play > polygon,
+  stroke-linecap: square
+
+.datum > rect,
+.tauschen > rect,
+.sortieren > rect
+  fill: $icon-set-linie
+  stroke: none
+
+.diamant > polygon:not(:first-child), .diamant-duoton > polygon:not(:first-child), .diamant-flaeche > polygon:not(:first-child)
+  stroke-linejoin: bevel !important
