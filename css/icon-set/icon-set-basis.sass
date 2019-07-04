@@ -1,4 +1,4 @@
-@import variablen.sass
+@import ../variablen.sass
 
 // Icons-Ausgestaltung
 .icon-set-linie-dick > line,
@@ -18,8 +18,8 @@
 .datum > rect,
 .tauschen > rect,
 .sortieren > rect
-  fill: $icon-set-linie
-  stroke: none
+  fill: $icon-set-linie !important
+  stroke: none !important
 
-.diamant > polygon:not(:first-child), .diamant-duoton > polygon:not(:first-child), .diamant-flaeche > polygon:not(:first-child)
+.diamant > polygon:not(:last-child), .diamant-duoton > polygon:not(:last-child), .diamant-flaeche > polygon:not(:last-child)
   stroke-linejoin: bevel !important

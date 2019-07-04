@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" preserveAspectRatio="xMidYMid meet">
-  <g class="IconSetDiamant">
-    <polygon points="3.5 16.013 20 33.669 36.5 16.013 31.559 6.331 8.441 6.331 3.5 16.013"/>
-    <polygon points="20 33.669 26.087 16.013 20 6.331 13.913 16.013 20 33.669"/>
-    <line x1="36.5" y1="16.013" x2="3.5" y2="16.013"/>
-    <line x1="31.5592" y1="6.3305" x2="26.0868" y2="16.013"/>
-    <line x1="13.9132" y1="16.013" x2="8.4408" y2="6.3305"/>
-  </g>
-</svg>
