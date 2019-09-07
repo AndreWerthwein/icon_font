@@ -1,7 +1,7 @@
-@import variablen.sass
+@import variables.sass
 
-// Auszeichnung des Urhebers
-#Urheber
+// Auszeichnung des copyrights
+#copyright
   position: fixed
   bottom: 160px
   right: -108px
@@ -12,18 +12,18 @@
   -webkit-transform-style: preserve-3d
 
 // Icon Set
-#IconSet
+#icon-set
   width: 80vw
   margin: 40px auto
 
-.IconSetRaster
+.icon-set-raster
   width: 100%
   display: grid
   grid-template-columns: calc(10vw - 9px) calc(10vw - 9px) calc(10vw - 9px) calc(10vw - 9px) calc(10vw - 9px) calc(10vw - 9px) calc(10vw - 9px) calc(10vw - 9px)
   grid-column-gap: 10px
   grid-row-gap: 40px
 
-.IconSetRaster > li
+.icon-set-raster > li
   width: 100%
   height: 80px
   text-align: center
@@ -32,49 +32,49 @@
   -o-transition: all 0.3s ease-in
   transition: all 0.3s ease-in
 
-.IconSetRaster > li > img
+.icon-set-raster > li > img
   width: 50px
   height: 50px
   clear: both
   margin: 0px calc((10vw - 50px) / 2) 0px calc((10vw - 50px) / 2)
 
-.IconSetRaster > li > .Kommentar
+.icon-set-raster > li > .comment
   display: block
 
-.Verworfen
+.rejected
   opacity: 0.2
 
-// Startseite-Button
-#Startseite
+// home-Button
+#home
   position: fixed
   top: 40px
   left: 20px
 
 // Navigation
-#IconSetNavigation
+#icon-set-navigation
   width: 80vw
   margin: 40px auto
   display: grid
   grid-template-columns: calc((80vw / 4) - 15px) calc((80vw / 4) - 15px) calc((80vw / 4) - 15px) calc((80vw / 4) - 15px)
   grid-gap: 20px
 
-#IconSetNavigation > li
+#icon-set-navigation > li
   width: calc((80vw / 4) - 15px)
   display: flex
   justify-content: space-around
   align-items: center
   border-bottom: 1px $comment-color-1 solid
 
-#IconSetNavigation > li > a > section > h4
+#icon-set-navigation > li > a > section > h4
   text-align: center
   margin: 10px 0px 5px 0px
 
-#IconSetNavigation > li > a > section > p
+#icon-set-navigation > li > a > section > p
   text-align: center
   color: $comment-color-1
   margin: 0px 0px 10px 0px
 
-#IconSetNavigation > li > a > section > svg
+#icon-set-navigation > li > a > section > svg
   width: calc(50px * 2) !important
   margin: 40px calc((((80vw / 4) - 15px) - 100px) / 2)
   height: auto

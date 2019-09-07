@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" preserveAspectRatio="xMidYMid meet">
-  <g class="IconSetexchange">
-    <line x1="17.2336" y1="22.7481" x2="8.7198" y2="31.2619"/>
-    <polyline points="21.903 31.271 8.72 31.262 8.729 18.097"/>
-    <line x1="22.7664" y1="17.2519" x2="31.2802" y2="8.7381"/>
-    <polyline points="18.097 8.729 31.28 8.738 31.271 21.903"/>
-    <rect x="18.7002" y="18.7002" width="2.5996" height="2.5996" transform="translate(20 -8.2843) rotate(45)"/>
-  </g>
-</svg>
